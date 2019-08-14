@@ -50,16 +50,15 @@
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
                           <Component id="fteclogo" min="-2" max="-2" attributes="0"/>
                           <EmptySpace pref="49" max="32767" attributes="0"/>
                           <Component id="ibgenlogo" min="-2" pref="211" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="lbSala" min="-2" max="-2" attributes="0"/>
                               <Component id="lbCpf" min="-2" max="-2" attributes="0"/>
                               <Component id="lbSenha" min="-2" max="-2" attributes="0"/>
                               <Component id="btnRetirar" min="-2" max="-2" attributes="0"/>
@@ -67,7 +66,6 @@
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="tfCpf" min="-2" pref="84" max="-2" attributes="0"/>
-                              <Component id="tfSala" min="-2" pref="84" max="-2" attributes="0"/>
                               <Component id="tfSenha" min="-2" pref="84" max="-2" attributes="0"/>
                               <Component id="btnEntregar" alignment="1" min="-2" max="-2" attributes="0"/>
                           </Group>
@@ -95,39 +93,34 @@
                   <Component id="lbBemVindo" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="btnConsultar" min="-2" pref="40" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="btnCadastrar" min="-2" pref="40" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="lbCpf" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="tfCpf" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="lbSala" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="tfSala" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="lbSenha" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="tfSenha" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                      </Group>
-                      <Group type="102" attributes="0">
-                          <Component id="btnConsultar" min="-2" pref="40" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="btnCadastrar" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnEntregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnRetirar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="btnEntregar" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnRetirar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="24" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="fteclogo" alignment="1" min="-2" pref="136" max="-2" attributes="0"/>
-                      <Component id="ibgenlogo" alignment="1" min="-2" pref="119" max="-2" attributes="0"/>
+                      <Component id="fteclogo" min="-2" pref="136" max="-2" attributes="0"/>
+                      <Component id="ibgenlogo" min="-2" pref="119" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -151,16 +144,6 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="tfCpf">
-        </Component>
-        <Component class="javax.swing.JLabel" name="lbSala">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial" size="11" style="1"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="Digite a sala"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JTextField" name="tfSala">
         </Component>
         <Component class="javax.swing.JLabel" name="lbSenha">
           <Properties>

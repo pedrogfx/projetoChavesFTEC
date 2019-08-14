@@ -95,7 +95,7 @@
                       <Component id="lbColaborador" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="fteclogo" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="39" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                           <Component id="ibgenlogo" min="-2" pref="211" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -138,7 +138,7 @@
                       <Component id="btnEntregar" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="btnRetirar" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="58" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="ibgenlogo" alignment="1" min="-2" pref="119" max="-2" attributes="0"/>
                       <Component id="fteclogo" alignment="1" min="-2" pref="136" max="-2" attributes="0"/>
