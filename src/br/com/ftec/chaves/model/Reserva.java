@@ -15,6 +15,16 @@ public class Reserva {
     private String turno;
     private String dia;
 
+    public Colaborador getColaborador() {
+        return colaborador;
+    }
+
+    public void setColaborador(Colaborador colaborador) {
+        this.colaborador = colaborador;
+    }
+    private Colaborador colaborador;
+    
+    
     public Sala getSala() {
         return sala;
     }

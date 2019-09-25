@@ -172,7 +172,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
     private void btnCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarActionPerformed
         // TODO add your handling code here:
-        FrmCadastroUsuario frameCadastro = new FrmCadastroUsuario();
+        FrmCadastroColaborador frameCadastro = new FrmCadastroColaborador();
         frameCadastro.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_btnCadastrarActionPerformed

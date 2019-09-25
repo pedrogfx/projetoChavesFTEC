@@ -11,11 +11,22 @@ package br.com.ftec.chaves.model;
  */
 public class Colaborador {
 
+
+    
+    private int id;
     private String nome;
     private String cpf;
     private String senha;
     private String telefone;
     private String email;
+    
+    public int getId() {
+       return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getNome() {
         return nome;
@@ -55,6 +66,11 @@ public class Colaborador {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return this.nome;
     }
     
     
